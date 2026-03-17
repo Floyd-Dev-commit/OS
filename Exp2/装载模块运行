@@ -1,0 +1,9 @@
+sudo insmod show_all_kernel_thread.ko
+dmesg
+
+ps -aux
+
+
+pstree -p
+sudo insmod show_task_family pid=xxxx
+systemd
